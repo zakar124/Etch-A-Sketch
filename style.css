@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+}
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+}
