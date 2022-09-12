@@ -9,3 +9,7 @@
   height: 30px;
   border: 1px solid black;
 }
+
+.cell:hover {
+    background-color: blueviolet;
+}
