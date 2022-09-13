@@ -5,13 +5,14 @@ let container1 = document.getElementById("container");
 let button = document.getElementById("btn");
 
 let gridSize = function (number) {
-let i = 0,
-repeat = number;
+  let i = 0,
+    repeat = number;
+  number = Math.min(100, Math.max(0, number));
 
-container.innerHTML = `<div class="row">${'<div class="cell"> </div>'.repeat(
-  number
-)}</div>`.repeat(number);
-}
+  container.innerHTML = `<div class="row">${'<div class="cell"> </div>'.repeat(
+    number
+  )}</div>`.repeat(number);
+};
 
 gridSize(16);
 
@@ -24,7 +25,7 @@ button.addEventListener("click", function () {
   console.log(Number(userInput));
   if (!Number(userInput)) {
     alert("Enter only numbers. Try again.");
-   }  else {
+  } else {
     gridSize(userInput);
-    }
+  }
 });
