@@ -21,10 +21,10 @@ container1.addEventListener("mouseover", (event) => {
 });
 
 button.addEventListener("click", function () {
-  let userInput = prompt("Enter number of squares per side of grid");
+  let userInput = prompt("Enter number of squares 😁");
   console.log(Number(userInput));
   if (!Number(userInput)) {
-    alert("Enter only numbers. Try again.");
+    alert("Enter only numbers. Try again 🙃");
   } else {
     gridSize(userInput);
   }
