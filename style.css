@@ -10,7 +10,7 @@ body {
  justify-content: center;
   font-size: 15px;
   text-align: center;
-  color: white;
+  color: rgb(182, 21, 21);
 
 }
 h1 {
@@ -22,18 +22,22 @@ h1:hover {
 
 }
 .cell {
-  width: 30px;
-  height: 30px;
-  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  border: .5px solid black;
+  display: inline-block;
+  transition: ease 300s all;
+
+  }
+.cell:hover {
+    background: rgb(162, 245, 53);
+    transition: ease 0.001s all;
 }
 
-.cell:hover {
-    background-color: rgb(43, 189, 226);
-}
 
 #btn {
     color:rgb(31, 66, 221);
-    background-color: aqua;
+    background-color: rgb(162, 245, 53);
     border: 4px double blue;
     font-family: 'Nothing You Could Do', cursive;
     font-size: 20px;
